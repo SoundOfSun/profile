@@ -97,6 +97,7 @@ a:hover {
 }
 .list-inline li i {
   font-size: 25px;
+  color: rgb(250, 250, 250);
 }
 .img-small {
   width: 100px;
