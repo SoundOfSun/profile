@@ -7,7 +7,8 @@
     <meta name="description" content="This profile page aims to be really pretty !">
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:300,400,500,700" rel="stylesheet">
-
+    <!-- Boostrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <!-- Fontawesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 
@@ -25,6 +26,11 @@
         <li>
           <a href="#favorite-movies">
             <i class="fa fa-film"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#donation">
+            <i class="fa fa-gbp"></i>
           </a>
         </li>
         <li>
@@ -96,6 +102,23 @@
               </tr>
             </tbody>
           </table>
+        </div>
+
+        <div id="donation" class="card text-center">
+          <h2> Save a Unicorn !</h2>
+            <form class="form-inline">
+              <div class="form-group">
+              <label class="sr-only" for="exampleInputAmount">Amount (in dollars)</label>
+                <div class="input-group">
+                  <div class="input-group-addon">£</div>
+                    <input type="text" class="form-control" id="exampleInputAmount" placeholder="Amount">
+                    <div class="input-group-addon">
+                      .00
+                    </div>
+                  </div>
+              </div>
+              <button type="submit" class="btn btn-primary">Transfer Bliss</button>
+            </form>
         </div>
 
         <div class="card text-center" id="footer">
