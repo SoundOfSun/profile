@@ -1,87 +1,113 @@
 <html>
   <head>
-    <meta charset="utf-8"></meta>
+    <meta charset="utf-8">
+    <!-- page name -->
     <title>Profile Page</title>
+    <!-- page description on google -->
     <meta name="description" content="This profile page aims to be really pretty !">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:300,400,500,700" rel="stylesheet">
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+    <!-- Your style -->
     <link rel="stylesheet" href="style.css">
   </head>
-
   <body>
-    <div class="container">
-      <div class="card text-center">
-        <img src="images/profile_pic.png" alt="Cecile's face" class="img-circle">
-        <h1>Cécile "Awesome "ALFRED</h1>
-        <h2>Unicorn Magic Maker</h2>
-        <p>After 2 years as a French teacher abroad, I got bored and decided to learn how to code some magic. My mission: <strong>beautifying the world</strong>.</p>
-        <a href="#" class="btn-green">See for yourself</a>
-      </div>
-
-      <div class="card text-center">
-        <ul class="list-inline">
-          <li>
-            <a href="#" target="_blank">
-              <i class="fa fa-facebook-official" aria-hidden="true"></i>
-              <br>
-              Facebook
-            </a>
-          </li>
-          <li>
-            <a href="#" target="_blank">
-              <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-              <br>
-              Linkedin
-            </a>
-          </li>
-          <li>
-            <a href="#" target="_blank">
-              <i class="fa fa-twitter-square" aria-hidden="true"></i>
-              <br>
-              Twitter
-            </a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="card text-center">
-        <h2>My inspirational odd films</h2>
-
-        <table id="films">
-          <tbody>
-            <tr>
-              <td>
-                 <img src="images/inception.png" alt="Film poster" class="img-small">
-              </td>
-              <td>
-                <h3>Inception</h3>
-                <p>A thief, who steals corporate secrets through use of dream-sharing technology, is given the inverse task of planting an idea into the mind of a CEO.</p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <img src="images/princess_mononoke.png" alt="Film poster" class="img-small">
-              </td>
-              <td>
-                <h3>Princess Mononoke</h3>
-                <p>On a journey to find the cure for a Tatarigami's curse, Ashitaka finds himself in the middle of a war between the forest gods and Tatara, a mining colony. In this quest he also meets San, the Mononoke Hime.</p>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
-      <div class="card text-center">
-        <h2>About this page</h2>
-        <p>This page has been coded during the <a href="https://www.lewagon.com/">FullStack program @LeWagon</a>. That was probably the best experience of my entire life.</p>
-        <ul class="list-inline">
-          <li><a href="#" target="_blank"><i class="fa fa-heart" aria-hidden="true"></i></a></li>
-          <li><a href="#" target="_blank"><i class="fa fa-share" aria-hidden="true"></i></a></li>
-          <li><a href="#" target="_blank"><i class="fa fa-star" aria-hidden="true"></i></a></li>
-        </ul>
-      </div>
-
+    <div id="sidebar">
+      <ul>
+        <li>
+          <a href="#summary">
+            <i class="fa fa-info-circle"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#favorite-movies">
+            <i class="fa fa-file-video-o"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#footer">
+            <i class="fa fa-life-ring"></i>
+          </a>
+        </li>
+      </ul>
     </div>
+    <div id="content">
+      <!-- your page content here -->
+      <div class="container-fluid">
+        <div class="card text-center" id="summary">
+          <img src="images/profile_pic.png" alt="Cecile's face" class="img-circle">
+          <h1>Cécile "Awesome "ALFRED</h1>
+          <h2>Unicorn Magic Maker</h2>
+          <p>After 2 years as a French teacher abroad, I got bored and decided to learn how to code some magic. My mission: <strong>beautifying the world</strong>.</p>
+          <a href="#" class="btn-green">See for yourself</a>
+        </div>
 
+        <div class="card text-center">
+          <ul class="list-inline">
+            <li>
+              <a href="#" target="_blank">
+                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                <br>
+                Facebook
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank">
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                <br>
+                Linkedin
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank">
+                <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                <br>
+                Twitter
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="card text-center" id="favorite-movies">
+          <h2>My inspirational odd films</h2>
+
+          <table id="films">
+            <tbody>
+              <tr>
+                <td>
+                   <img src="images/inception.png" alt="Film poster" class="img-small">
+                </td>
+                <td>
+                  <h3>Inception</h3>
+                  <p>A thief, who steals corporate secrets through use of dream-sharing technology, is given the inverse task of planting an idea into the mind of a CEO.</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src="images/princess_mononoke.png" alt="Film poster" class="img-small">
+                </td>
+                <td>
+                  <h3>Princess Mononoke</h3>
+                  <p>On a journey to find the cure for a Tatarigami's curse, Ashitaka finds himself in the middle of a war between the forest gods and Tatara, a mining colony. In this quest he also meets San, the Mononoke Hime.</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="card text-center" id="footer">
+          <h2>About this page</h2>
+          <p>This page has been coded during the <a href="https://www.lewagon.com/">FullStack program @LeWagon</a>. That was probably the best experience of my entire life.</p>
+          <ul class="list-inline">
+            <li><a href="#" target="_blank"><i class="fa fa-heart" aria-hidden="true"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fa fa-share" aria-hidden="true"></i></a></li>
+            <li><a href="#" target="_blank"><i class="fa fa-star" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
