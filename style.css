@@ -28,7 +28,7 @@
 
 /* Fonts and Colours */
 body {
-  background: linear-gradient(to bottom, #febbbb 0%,#fe9090 45%,#ff5c5c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: linear-gradient(to bottom, #eecda3, #ef629f); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   font-family: 'Open Sans', sans-serif;
   color: rgb(87, 87, 87);
   font-size: 16px;
