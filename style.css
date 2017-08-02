@@ -1,6 +1,6 @@
 /* Here goes your CSS */
 #sidebar {
-  background-color: #476268;
+  background-color: rgba(71, 98, 104, 0.8);
   position: fixed;
   width: 120px;
   left: 0px;
