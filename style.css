@@ -111,3 +111,6 @@ a:hover {
 #films td {
   padding: 10px;
 }
+#summary p {
+  margin-bottom: 30px;
+}
